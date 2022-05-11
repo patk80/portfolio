@@ -1,11 +1,16 @@
+@import 'hero';
+
 /* Global Styles Start */
 body {
     background-color: #000000;
 }
 
-$theme-colors: (
-  "success": #ffffff,
-);
+#hero-section,
+#about-section,
+#projects-section,
+#contact-section {
+    padding-top: 6.5rem;
+}
 
 .press-start-2p-font {
     font-family: 'Press Start 2P', cursive;
@@ -15,14 +20,13 @@ $theme-colors: (
 
 
 
-/* Hero Start */
-#hero-8-bit-image {
-    width: 100%;
-    @media (min-width: 768px) {
-        width: 25%;
-    }
+
+/* About Start */
+.about-highlight-text {
+    color: #07bb24;
+    font-weight: bold;
 }
-/* Hero End */
+/* About End */
 
 
 
