@@ -33,7 +33,7 @@ body {
 #about-section,
 #projects-section,
 #contact-section {
-  padding-top: 6.5rem;
+  padding: 6.5rem 0;
 }
 
 .press-start-2p-font {
