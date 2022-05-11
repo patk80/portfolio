@@ -13,13 +13,13 @@
     <!-- Font Awesome Icon Library -->
     <script src="https://kit.fontawesome.com/7fe56f3963.js" crossorigin="anonymous"></script>
     <!-- Custom CSS file -->
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/styles/main.css">
     <title>Pat Kelly | Front-End Developer: HTML, CSS, JavaScript</title>
 </head>
 <body>
     
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="/assets/img/pat-kelly-8-bit-face.png" alt="Pat Kelly 8-bit" width="40" height="40">
@@ -47,18 +47,70 @@
     </nav>
     <!-- Navbar End -->
 
-    <!-- Hero Start -->
-    <header class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <img src="/assets/img/pat-kelly-8-bit-face.png" alt="Pat Kelly 8-bit">
-                    <h1>Pat Kelly C: \Front-End Developer></h1>
+    <!-- Main Content Start -->
+    <main role="main">
+        <!-- Hero Start -->
+        <header class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="/assets/img/pat-kelly-8-bit-face.png" alt="Pat Kelly 8-bit">
+                        <h1 class="press-start-2p-font">Pat Kelly C:\Front-End Developer></h1>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <!-- Hero End -->
+        </header>
+        <!-- Hero End -->
+
+        <!-- About Start -->
+        <section class="container-fluid">
+            <h2 class="text-center press-start-2p-font">About Me</h2>
+            <div class="container">
+                <div class="row">
+                    <!-- Left Column Start -->
+                    <div class="col-lg-6">
+                        <p>Starting out as a social media coordinator at my first full-time job after college, it was only myself and one other person in charge of our small company's digital department. I quickly needed to take on a bigger role in order to help with the influx of digital requests from our clients. At this job, I was introduced to the world of website maintenance and have since taken it upon myself to research front-end web development on my own time with the focus of creating a career out of it. I love coding because I love learning and building things. I enjoy challenging myself every day and working through problems.</p>
+                        <img src="/assets/img/hacker-walking-past-binary-code-undraw.svg" alt="Hooded hacker walking past binary code" class="w-100">
+                    </div>
+                    <!-- Left Column End -->
+                    <!-- Right Column Start -->
+                    <div class="col-lg-6">
+                        <h3 class="text-center press-start-2p-font">Technical Skills</h3>
+                        <ul>
+                            <li><span class="about-highlight-text">HyperText Markup Language</span> (HTML5)</li>
+                            <li><span class="about-highlight-text">Cascading Stylesheets</span> (CSS3)</li>
+                            <li><span class="about-highlight-text">SASS</span> (SCSS)</li>
+                            <li><span class="about-highlight-text">JavaScript</span> (ES5 & ES6)</li>
+                            <li><span class="about-highlight-text">Bootstrap</span> (v5)</li>
+                            <li><span class="about-highlight-text">APIs</span> (Basics of working with JSON & XML)</li>
+                            <li><span class="about-highlight-text">Git</span> (Basic source control commands & workflow)</li>
+                            <li><span class="about-highlight-text">GitHub</span> (Utilizing Git to push/pull to & from GitHub repos)</li>
+                            <li><span class="about-highlight-text">Responsive Web Design</span> (Flexbox, CSS Grid, Media Queries, etc.)</li>
+                            <li><span class="about-highlight-text">Web Content Accessibility Guidelines</span> (ADA Compliance & WCAG 2.1 best practices)</li>
+                            <li><span class="about-highlight-text">Performance Optimization</span> (Image compression, CDNs, lazy loading images, etc.)</li>
+                            <li><span class="about-highlight-text">Search Engine Optimization</span> (SEO best practices)</li>
+                            <li><span class="about-highlight-text">Quality Assurance</span> (QA testing applications/development changes across multiple browsers)</li>
+                            <li><span class="about-highlight-text">Google resources</span> (Google Analytics [certified], Google Search Console, Google Data Studio, etc.)</li>
+                            <li><span class="about-highlight-text">CMS Familiarity</span> (WordPress, Squarespace, Adobe Experience Manager, Ektron, Kentico, BigCommerce, & more)</li>
+                            <li><span class="about-highlight-text">HTML / CSS emails</span> (Oracle Responsys & SalesForce Marketing Cloud)</li>
+                            <li><span class="about-highlight-text">Basic photo editing</span> (Adobe Photoshop & GIMP)</li>
+                            <li><span class="about-highlight-text">Basic video editing</span> (DaVinci Resolve 16)</li>
+                            <li><span class="about-highlight-text">Social Media</span> (Paid & Organic)</li>
+                        </ul>
+                    </div>
+                    <!-- Right Column End -->
+                </div>
+            </div>
+        </section>
+        <!-- About End -->
+    </main>
+    <!-- Main Content End -->
+
+    <!-- Footer Start -->
+    <footer role="contentinfo">
+        <p>&copy 2022</p>
+    </footer>
+    <!-- Footer End -->
 
     <!-- Bootstrap v5 JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
