@@ -1,4 +1,7 @@
-@import 'hero';
+@import "hero";
+@import "about";
+@import "projects";
+@import "contact";
 
 /* Global Styles Start */
 body {
@@ -17,23 +20,3 @@ body {
     color: #07bb24;
 }
 /* Global Styles End */
-
-
-
-
-/* About Start */
-.about-highlight-text {
-    color: #07bb24;
-    font-weight: bold;
-}
-/* About End */
-
-
-
-/* Projects Start */
-.project-card {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-/* Projects End */

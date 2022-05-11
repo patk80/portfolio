@@ -8,6 +8,22 @@
   }
 }
 
+.about-highlight-text {
+  color: #07bb24;
+  font-weight: bold;
+}
+
+.project-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
 /* Global Styles Start */
 body {
   background-color: #000000;
@@ -26,24 +42,4 @@ body {
 }
 
 /* Global Styles End */
-/* About Start */
-.about-highlight-text {
-  color: #07bb24;
-  font-weight: bold;
-}
-
-/* About End */
-/* Projects Start */
-.project-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 100%;
-}
-
-/* Projects End */
 /*# sourceMappingURL=main.css.map */
