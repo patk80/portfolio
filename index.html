@@ -19,7 +19,7 @@
 <body>
     
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black" role="navigation">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="/assets/img/pat-kelly-8-bit-face.png" alt="Pat Kelly 8-bit" width="40" height="40">
@@ -68,13 +68,13 @@
             <div class="container">
                 <div class="row">
                     <!-- Left Column Start -->
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 text-white">
                         <p>Starting out as a social media coordinator at my first full-time job after college, it was only myself and one other person in charge of our small company's digital department. I quickly needed to take on a bigger role in order to help with the influx of digital requests from our clients. At this job, I was introduced to the world of website maintenance and have since taken it upon myself to research front-end web development on my own time with the focus of creating a career out of it. I love coding because I love learning and building things. I enjoy challenging myself every day and working through problems.</p>
                         <img src="/assets/img/hacker-walking-past-binary-code-undraw.svg" alt="Hooded hacker walking past binary code" class="w-100">
                     </div>
                     <!-- Left Column End -->
                     <!-- Right Column Start -->
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 text-white">
                         <h3 class="text-center press-start-2p-font">Technical Skills</h3>
                         <ul>
                             <li><span class="about-highlight-text">HyperText Markup Language</span> (HTML5)</li>
@@ -115,7 +115,7 @@
                         <div class="project-card">
                             <h3 class="text-center">The Dead Flowers</h3>
                             <img src="/assets/img/the-dead-flowers-project-screenshot.jpg" alt="The Dead Flowers website project screenshot" class="w-100">
-                            <p>A mock website built for a band my friends are in. The goal was the expand upon my Bootstrap 5 and SCSS knowledge by incorporating new elements/techniques (such as the hero video and using SCSS mixins). Created with HTML, SCSS, and JavaScript.</p>
+                            <p class="text-white">A mock website built for a band my friends are in. The goal was the expand upon my Bootstrap 5 and SCSS knowledge by incorporating new elements/techniques (such as the hero video and using SCSS mixins). Created with HTML, SCSS, and JavaScript.</p>
                             <div class="d-flex flex-column flex-md-row justify-content-around mt-auto">
                                 <a href="https://patk80.github.io/The-Dead-Flowers/" target="_blank" rel="noopener" rel="noreferrer" class="btn btn-success mb-2"><i class="fas fa-globe me-2"></i>View Site</a>
                                 <a href="https://github.com/patk80/The-Dead-Flowers" target="_blank" rel="noopener" rel="noreferrer" class="btn btn-success mb-2"><i class="fab fa-github-square me-2"></i>GitHub Code</a>
@@ -128,7 +128,7 @@
                         <div class="project-card">
                             <h3 class="text-center">Purdue University Global</h3>
                             <img src="/assets/img/purdue-university-global-website-project-screenshot.jpg" alt="Purdue Global University website project screenshot" class="w-100">
-                            <p>A UI recreation of https://www.purdueglobal.edu/ where the goal was to mimic the website using Bootstrap 5. Created with HTML and CSS.</p>
+                            <p class="text-white">A UI recreation of https://www.purdueglobal.edu/ where the goal was to mimic the website using Bootstrap 5. Created with HTML and CSS.</p>
                             <div class="d-flex flex-column flex-md-row justify-content-around mt-auto">
                                 <a href="https://patk80.github.io/Purdue-University-Global/" target="_blank" rel="noopener" rel="noreferrer" class="btn btn-success mb-2"><i class="fas fa-globe me-2"></i>View Site</a>
                                 <a href="https://github.com/patk80/Purdue-University-Global" target="_blank" rel="noopener" rel="noreferrer" class="btn btn-success mb-2"><i class="fab fa-github-square me-2"></i>GitHub Code</a>
@@ -141,7 +141,7 @@
                         <div class="project-card">
                             <h3 class="text-center">Thrash Album Year Game</h3>
                             <img src="/assets/img/thrash-album-year-game-project-screenshot.jpg" alt="Thrash Album Year Game project screenshot" class="w-100">
-                            <p>A browser game I created where the objective is to correctly guess the year that certain thrash metal albums were released. With this project, I wanted to challenge myself to create a game using JavaScript. This involved JS objects, arrays, various methods, DOM manipulation, conditionals, functions, and more. Created with HTML, CSS, and JavaScript.</p>
+                            <p class="text-white">A browser game I created where the objective is to correctly guess the year that certain thrash metal albums were released. With this project, I wanted to challenge myself to create a game using JavaScript. This involved JS objects, arrays, various methods, DOM manipulation, conditionals, functions, and more. Created with HTML, CSS, and JavaScript.</p>
                             <div class="d-flex flex-column flex-md-row justify-content-around mt-auto">
                                 <a href="https://patk80.github.io/Thrash-Album-Year-Game/" target="_blank" rel="noopener" rel="noreferrer" class="btn btn-success mb-2"><i class="fas fa-globe me-2"></i>View Site</a>
                                 <a href="https://github.com/patk80/Thrash-Album-Year-Game" target="_blank" rel="noopener" rel="noreferrer" class="btn btn-success mb-2"><i class="fab fa-github-square me-2"></i>GitHub Code</a>
@@ -161,7 +161,7 @@
             <div class="container">
                 <div class="row">
                     <!-- Left Column Start -->
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 text-white">
                         <h3 class="text-center press-start-2p-font">Contact</h3>
                         <p>Please email me if you would like to reach out — thank you!</p>
                         <form action="https://formspree.io/f/mnqlypev" method="POST">
@@ -173,7 +173,7 @@
                                 </textarea>
                             </label>
                             <!-- your other form fields go here -->
-                            <button type="submit" class="btn btn-success"><i class="fas fa-envelope me-2"></i>Send Message</button>
+                            <button type="submit" class="btn btn-success mt-2"><i class="fas fa-envelope me-2"></i>Send Message</button>
                         </form>
                     </div>
                     <!-- Left Column End -->
@@ -191,8 +191,14 @@
     <!-- Main Content End -->
 
     <!-- Footer Start -->
-    <footer role="contentinfo">
-        <p>Copyright &copy; <span id="footer-copyright-date"></span> Pat Kelly</p>
+    <footer class="container-fluid" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center text-white">
+                    <p>Copyright &copy; <span id="footer-copyright-date"></span> Pat Kelly</p>
+                </div>
+            </div>
+        </div>
     </footer>
     <!-- Footer End -->
 

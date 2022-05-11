@@ -1,6 +1,11 @@
 /* Global Styles Start */
+body {
+  background-color: #000000;
+}
+
 .press-start-2p-font {
   font-family: 'Press Start 2P', cursive;
+  color: #07bb24;
 }
 
 /* Global Styles End */
@@ -9,7 +14,7 @@
   width: 100%;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   #hero-8-bit-image {
     width: 25%;
   }
