@@ -44,11 +44,11 @@ body {
 .blinking-animation {
   -webkit-animation: blink ease 3s infinite;
           animation: blink ease 3s infinite;
-  height: 5px;
-  width: 30px;
+  height: 0.35rem;
+  width: 2rem;
   background-color: #ffffff;
   display: inline-block;
-  margin-left: 5px;
+  margin-left: 0.35rem;
   opacity: 0;
 }
 
