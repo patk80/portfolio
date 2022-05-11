@@ -1,3 +1,26 @@
+/* Global Styles Start */
 .press-start-2p-font {
     font-family: 'Press Start 2P', cursive;
 }
+/* Global Styles End */
+
+
+
+/* Hero Start */
+#hero-8-bit-image {
+    width: 100%;
+    @media (min-width: 992px) {
+        width: 25%;
+    }
+}
+/* Hero End */
+
+
+
+/* Projects Start */
+.project-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+/* Projects End */

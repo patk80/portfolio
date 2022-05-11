@@ -1,4 +1,32 @@
+/* Global Styles Start */
 .press-start-2p-font {
   font-family: 'Press Start 2P', cursive;
 }
+
+/* Global Styles End */
+/* Hero Start */
+#hero-8-bit-image {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  #hero-8-bit-image {
+    width: 25%;
+  }
+}
+
+/* Hero End */
+/* Projects Start */
+.project-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+/* Projects End */
 /*# sourceMappingURL=main.css.map */
