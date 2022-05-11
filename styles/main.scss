@@ -19,4 +19,20 @@ body {
     font-family: 'Press Start 2P', cursive;
     color: #07bb24;
 }
+
+.blinking-animation {
+    animation: blink ease 3s infinite;
+    height: 5px;
+    width: 30px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin-left: 5px;
+    opacity: 0;
+}
+
+@keyframes blink {
+    0% { opacity:0; }
+   50% { opacity:1; }
+  100% { opacity:0; }
+}
 /* Global Styles End */

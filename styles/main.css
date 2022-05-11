@@ -41,5 +41,40 @@ body {
   color: #07bb24;
 }
 
+.blinking-animation {
+  -webkit-animation: blink ease 3s infinite;
+          animation: blink ease 3s infinite;
+  height: 5px;
+  width: 30px;
+  background-color: #ffffff;
+  display: inline-block;
+  margin-left: 5px;
+  opacity: 0;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 /* Global Styles End */
 /*# sourceMappingURL=main.css.map */
