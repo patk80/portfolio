@@ -28,13 +28,20 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
 #hero-section-buttons-container a {
   margin: 0.75rem 0;
+}
+
+@media (min-width: 992px) {
+  #hero-section-buttons-container a {
+    margin: 0.75rem 3rem;
+  }
 }
 
 .about-highlight-text {
