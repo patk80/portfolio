@@ -187,6 +187,10 @@ body {
   color: #07bb24;
 }
 
+p {
+  font-size: 1.1rem;
+}
+
 i {
   color: #07bb24;
   font-size: 1.5rem;
