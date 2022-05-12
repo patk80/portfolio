@@ -1,6 +1,23 @@
+#hero-section {
+    height: 100vh;
+}
+
 #hero-8-bit-image {
     width: 100%;
     @media (min-width: 768px) {
         width: 25%;
+    }
+}
+
+#hero-section-buttons-container {
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 992px) {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    a {
+        margin: 0.75rem 0;
     }
 }

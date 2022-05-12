@@ -1,3 +1,7 @@
+#hero-section {
+  height: 100vh;
+}
+
 #hero-8-bit-image {
   width: 100%;
 }
@@ -6,6 +10,31 @@
   #hero-8-bit-image {
     width: 25%;
   }
+}
+
+#hero-section-buttons-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 992px) {
+  #hero-section-buttons-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+#hero-section-buttons-container a {
+  margin: 0.75rem 0;
 }
 
 .about-highlight-text {
