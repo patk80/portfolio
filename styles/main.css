@@ -53,6 +53,21 @@
   height: 100%;
 }
 
+#contact-input,
+#contact-textarea {
+  width: 100%;
+  max-width: 50rem;
+}
+
+#contact-input:focus,
+#contact-textarea:focus {
+  outline: 0.125rem solid #07bb24;
+}
+
+#contact-textarea {
+  height: 10rem;
+}
+
 /* Global Styles Start */
 body {
   background-color: #000000;
