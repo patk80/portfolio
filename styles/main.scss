@@ -11,6 +11,10 @@ body {
     font-family: 'Encode Sans', sans-serif;
 }
 
+i {
+    color: #07bb24;
+}
+
 #hero-section,
 #about-section,
 #projects-section,
@@ -40,22 +44,22 @@ body {
 }
 
 .btn {
-    background-color: #919191;
-    color: #000000;
-    border-radius: 0;
-    padding: 6px 8px;
     font-family: 'Press Start 2P', cursive;
-    border-top: 4px solid #444444;
-    border-right: 4px solid lightgray;
-    border-bottom: 4px solid lightgray;
-    border-left: 4px solid #444444;
-    box-shadow: inset -4px -4px #adafbc;
+    color: #000000;
+    background-color: #dfdfdf;
+    padding: 0.375rem 0.5rem;
+    border-radius: 0;
+    border-top: 0.25rem solid #6b6b6b;
+    border-right: 0.25rem solid #d3d3d3;
+    border-bottom: 0.25rem solid #d3d3d3;
+    border-left: 0.25rem solid #6b6b6b;
+    box-shadow: inset -0.25rem -0.25rem #adafbc;
 }
 
 .btn:hover {
-    background-color: #dfdfdf;
-    box-shadow: inset -6px -6px #e9e9ec;
-    transition: all 0.2s;
+    background-color: #919191;
+    box-shadow: inset -0.375rem -0.375rem #97979b;
+    transition: all 0.25s;
     cursor: pointer;
 }
 /* Global Styles End */
