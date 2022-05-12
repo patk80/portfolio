@@ -40,6 +40,11 @@
 .about-highlight-text {
   color: #07bb24;
   font-weight: bold;
+  font-style: italic;
+}
+
+#about-section {
+  background-color: rgba(20, 20, 20, 0.9);
 }
 
 .project-card {
@@ -51,6 +56,15 @@
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100%;
+}
+
+#contact-section {
+  background-color: rgba(20, 20, 20, 0.9);
+}
+
+#contact-section button {
+  background-color: transparent;
+  border: none;
 }
 
 #contact-input,
