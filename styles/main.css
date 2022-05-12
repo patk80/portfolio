@@ -95,18 +95,25 @@ h1 {
   }
 }
 
-#contact-input,
-#contact-textarea {
+#contact-input-container,
+#contact-textarea-container {
+  font-family: 'Press Start 2P', cursive;
+}
+
+#contact-input-container input,
+#contact-input-container textarea,
+#contact-textarea-container input,
+#contact-textarea-container textarea {
   width: 100%;
   max-width: 50rem;
+  background-color: #212529;
+  color: #07bb24;
+  padding: 0.5rem 1rem;
+  border: 0.25rem solid gray;
 }
 
-#contact-input:focus,
-#contact-textarea:focus {
-  outline: 0.125rem solid #07bb24;
-}
-
-#contact-textarea {
+#contact-input-container textarea,
+#contact-textarea-container textarea {
   height: 10rem;
 }
 

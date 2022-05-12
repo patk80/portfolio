@@ -14,19 +14,23 @@
         }
 }
 
-#contact-input,
-#contact-textarea {
-    width: 100%;
-    max-width: 50rem;
-}
+#contact-input-container,
+#contact-textarea-container {
+    font-family: 'Press Start 2P', cursive;
 
-#contact-input:focus,
-#contact-textarea:focus {
-    outline: 0.125rem solid #07bb24;
-}
+    input,
+    textarea {
+        width: 100%;
+        max-width: 50rem;
+        background-color: #212529;
+        color: #07bb24;
+        padding: 0.5rem 1rem;
+        border: 0.25rem solid gray;
+    }
 
-#contact-textarea {
-    height: 10rem;
+    textarea {
+        height: 10rem;
+    }
 }
 
 #contact-submit-button {
