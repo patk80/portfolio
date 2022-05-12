@@ -177,6 +177,11 @@ i {
   padding: 5rem 0;
 }
 
+.navbar-dark .navbar-toggler {
+  color: transparent;
+  border-color: transparent;
+}
+
 .blinking-animation {
   -webkit-animation: blink ease 3s infinite;
           animation: blink ease 3s infinite;
