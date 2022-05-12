@@ -1,7 +1,9 @@
+/* SCSS Imports Start */
 @import "hero";
 @import "about";
 @import "projects";
 @import "contact";
+/* SCSS Imports End */
 
 /* Global Styles Start */
 body {
@@ -43,12 +45,12 @@ body {
     border: 0.15rem solid #07bb24;
     border-radius: 0.313rem;
     color: #07bb24;
-    font-weight: 900;
     text-decoration: none;
     outline: none;
     transition: all 0.5s;
     box-shadow: 0 0 0.125rem 0.125rem #808080;
-    // font-family: 'Press Start 2P', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.75rem;
 }
 
 .btn:hover {
