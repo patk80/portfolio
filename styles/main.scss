@@ -40,25 +40,22 @@ body {
 }
 
 .btn {
-    padding: 0.938rem 1.563rem;
-    background-color: #000000;
-    border: 0.15rem solid #07bb24;
-    border-radius: 0.313rem;
-    color: #07bb24;
-    text-decoration: none;
-    outline: none;
-    transition: all 0.5s;
-    box-shadow: 0 0 0.125rem 0.125rem #808080;
+    background-color: #919191;
+    color: #000000;
+    border-radius: 0;
+    padding: 6px 8px;
     font-family: 'Press Start 2P', cursive;
-    font-size: 0.75rem;
+    border-top: 4px solid #444444;
+    border-right: 4px solid lightgray;
+    border-bottom: 4px solid lightgray;
+    border-left: 4px solid #444444;
+    box-shadow: inset -4px -4px #adafbc;
 }
 
 .btn:hover {
-    background-color: #07bb24;
-    border: 0.15rem solid #000000;
-    color: #000000;
-    transition: all 0.5s;
-    box-shadow: 0 0 0.188rem 0.188rem #333333;
+    background-color: #dfdfdf;
+    box-shadow: inset -6px -6px #e9e9ec;
+    transition: all 0.2s;
     cursor: pointer;
 }
 /* Global Styles End */
