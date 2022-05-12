@@ -7,6 +7,13 @@
     }
 }
 
+#contact-email {
+    font-size: 1rem;
+        @media (min-width: 992px) {
+            font-size: 1.75rem;
+        }
+}
+
 #contact-input,
 #contact-textarea {
     width: 100%;
