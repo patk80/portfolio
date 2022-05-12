@@ -11,6 +11,11 @@ body {
     font-family: 'Encode Sans', sans-serif;
 }
 
+.press-start-2p-font {
+    font-family: 'Press Start 2P', cursive;
+    color: #07bb24;
+}
+
 i {
     color: #07bb24;
     font-size: 1.5rem;
@@ -23,10 +28,23 @@ i {
     padding: 5rem 0;
 }
 
-.press-start-2p-font {
-    font-family: 'Press Start 2P', cursive;
-    color: #07bb24;
-}
+// #navbar-ul {
+
+//     li {
+//         position: relative;
+//     }
+
+//     .active::before {
+//         position: absolute;
+//         top: 12px;
+//         left: -10px;
+//         content: "";
+//         width: 2px;
+//         height: 2px;
+//         color: green;
+//         box-shadow: 2px 2px, 4px 2px, 2px 4px, 4px 4px, 6px 4px, 8px 4px, 2px 6px, 4px 6px, 6px 6px, 8px 6px, 10px 6px, 2px 8px, 4px 8px, 6px 8px, 8px 8px, 10px 8px, 12px 8px, 2px 10px, 4px 10px, 6px 10px, 8px 10px, 10px 10px, 2px 12px, 4px 12px, 6px 12px, 8px 12px, 2px 14px, 4px 14px;
+//     }
+// }
 
 .blinking-animation {
     animation: blink ease 3s infinite;

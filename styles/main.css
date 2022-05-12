@@ -160,6 +160,11 @@ body {
   font-family: 'Encode Sans', sans-serif;
 }
 
+.press-start-2p-font {
+  font-family: 'Press Start 2P', cursive;
+  color: #07bb24;
+}
+
 i {
   color: #07bb24;
   font-size: 1.5rem;
@@ -170,11 +175,6 @@ i {
 #projects-section,
 #contact-section {
   padding: 5rem 0;
-}
-
-.press-start-2p-font {
-  font-family: 'Press Start 2P', cursive;
-  color: #07bb24;
 }
 
 .blinking-animation {
