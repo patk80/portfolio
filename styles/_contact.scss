@@ -28,3 +28,24 @@
 #contact-textarea {
     height: 10rem;
 }
+
+#contact-submit-button {
+        padding: 0.938rem 1.563rem;
+        background-color: #000000;
+        border-radius: 0.313rem;
+        color: #07bb24;
+        text-decoration: none;
+        outline: none;
+        transition: all 0.5s;
+        box-shadow: 0 0 0.125rem 0.125rem #808080;
+        font-family: 'Press Start 2P', cursive;
+        font-size: 0.75rem;
+    
+    &:hover {
+        background-color: #07bb24;
+        color: #000000;
+        transition: all 0.5s;
+        box-shadow: 0 0 0.188rem 0.188rem #333333;
+        cursor: pointer;
+    }
+}

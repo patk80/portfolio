@@ -110,6 +110,31 @@ h1 {
   height: 10rem;
 }
 
+#contact-submit-button {
+  padding: 0.938rem 1.563rem;
+  background-color: #000000;
+  border-radius: 0.313rem;
+  color: #07bb24;
+  text-decoration: none;
+  outline: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-box-shadow: 0 0 0.125rem 0.125rem #808080;
+          box-shadow: 0 0 0.125rem 0.125rem #808080;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.75rem;
+}
+
+#contact-submit-button:hover {
+  background-color: #07bb24;
+  color: #000000;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-box-shadow: 0 0 0.188rem 0.188rem #333333;
+          box-shadow: 0 0 0.188rem 0.188rem #333333;
+  cursor: pointer;
+}
+
 /* SCSS Imports End */
 /* Global Styles Start */
 body {
