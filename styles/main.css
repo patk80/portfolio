@@ -105,5 +105,31 @@ body {
   }
 }
 
+.btn {
+  padding: 0.938rem 1.563rem;
+  background-color: #000000;
+  border: 0.15rem solid #07bb24;
+  border-radius: 0.313rem;
+  color: #07bb24;
+  font-weight: 900;
+  text-decoration: none;
+  outline: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-box-shadow: 0 0 0.125rem 0.125rem #808080;
+          box-shadow: 0 0 0.125rem 0.125rem #808080;
+}
+
+.btn:hover {
+  background-color: #07bb24;
+  border: 0.15rem solid #000000;
+  color: #000000;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-box-shadow: 0 0 0.188rem 0.188rem #333333;
+          box-shadow: 0 0 0.188rem 0.188rem #333333;
+  cursor: pointer;
+}
+
 /* Global Styles End */
 /*# sourceMappingURL=main.css.map */
