@@ -70,6 +70,12 @@ h1 {
   height: 100%;
 }
 
+@media (min-width: 992px) {
+  .project-card {
+    padding: 1rem;
+  }
+}
+
 #contact-section {
   background-color: rgba(20, 20, 20, 0.9);
 }
