@@ -39,3 +39,41 @@ h1 {
         }
     }
 }
+
+@keyframes hero-letter-animation {
+    0% { opacity:0; }
+   99% { opacity:0; }
+  100% { opacity:1; }
+}
+
+.p-1 {
+    animation: hero-letter-animation linear 0.5s;
+}
+
+.a-2 {
+    animation: hero-letter-animation linear 1s;
+}
+
+.t-3 {
+    animation: hero-letter-animation linear 1.5s;
+}
+
+.k-4 {
+    animation: hero-letter-animation linear 2s;
+}
+
+.e-5 {
+    animation: hero-letter-animation linear 2.5s;
+}
+
+.l-6 {
+    animation: hero-letter-animation linear 3s;
+}
+
+.l-7 {
+    animation: hero-letter-animation linear 3.5s;
+}
+
+.y-8 {
+    animation: hero-letter-animation linear 4s;
+}

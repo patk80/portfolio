@@ -65,6 +65,70 @@ h1 #pat-kelly-h1-text {
   }
 }
 
+@-webkit-keyframes hero-letter-animation {
+  0% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes hero-letter-animation {
+  0% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.p-1 {
+  -webkit-animation: hero-letter-animation linear 0.5s;
+          animation: hero-letter-animation linear 0.5s;
+}
+
+.a-2 {
+  -webkit-animation: hero-letter-animation linear 1s;
+          animation: hero-letter-animation linear 1s;
+}
+
+.t-3 {
+  -webkit-animation: hero-letter-animation linear 1.5s;
+          animation: hero-letter-animation linear 1.5s;
+}
+
+.k-4 {
+  -webkit-animation: hero-letter-animation linear 2s;
+          animation: hero-letter-animation linear 2s;
+}
+
+.e-5 {
+  -webkit-animation: hero-letter-animation linear 2.5s;
+          animation: hero-letter-animation linear 2.5s;
+}
+
+.l-6 {
+  -webkit-animation: hero-letter-animation linear 3s;
+          animation: hero-letter-animation linear 3s;
+}
+
+.l-7 {
+  -webkit-animation: hero-letter-animation linear 3.5s;
+          animation: hero-letter-animation linear 3.5s;
+}
+
+.y-8 {
+  -webkit-animation: hero-letter-animation linear 4s;
+          animation: hero-letter-animation linear 4s;
+}
+
 .about-highlight-text {
   color: #07bb24;
   font-weight: bold;
