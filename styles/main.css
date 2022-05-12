@@ -17,6 +17,22 @@ h1 {
   font-size: 1rem;
 }
 
+@media (min-width: 992px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+h1 #pat-kelly-h1-text {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 992px) {
+  h1 #pat-kelly-h1-text {
+    font-size: 2rem;
+  }
+}
+
 #hero-section-buttons-container {
   display: -webkit-box;
   display: -ms-flexbox;
