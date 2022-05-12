@@ -5,6 +5,8 @@
 @import "contact";
 /* SCSS Imports End */
 
+
+
 /* Global Styles Start */
 body {
     background-color: #000000;
@@ -27,30 +29,6 @@ i {
 #contact-section {
     padding: 5rem 0;
 }
-
-.navbar-dark .navbar-toggler {
-    color: transparent;
-    border-color: transparent;
-}
-
-
-// #navbar-ul {
-
-//     li {
-//         position: relative;
-//     }
-
-//     .active::before {
-//         position: absolute;
-//         top: 12px;
-//         left: -10px;
-//         content: "";
-//         width: 2px;
-//         height: 2px;
-//         color: green;
-//         box-shadow: 2px 2px, 4px 2px, 2px 4px, 4px 4px, 6px 4px, 8px 4px, 2px 6px, 4px 6px, 6px 6px, 8px 6px, 10px 6px, 2px 8px, 4px 8px, 6px 8px, 8px 8px, 10px 8px, 12px 8px, 2px 10px, 4px 10px, 6px 10px, 8px 10px, 10px 10px, 2px 12px, 4px 12px, 6px 12px, 8px 12px, 2px 14px, 4px 14px;
-//     }
-// }
 
 .blinking-animation {
     animation: blink ease 3s infinite;
@@ -93,4 +71,49 @@ i {
         transition: all 0.25s;
     }
 }
+
+// .fade-img {
+//     animation: fade ease 3s;
+//     animation-iteration-count: 1;
+//     opacity: 1;
+// }
+
+// @keyframes fade {
+//     0% { opacity:0; }
+//    50% { opacity:0.5; }
+//   100% { opacity:1; }
+// }
 /* Global Styles End */
+
+
+
+/* Navbar Styles Start */
+.navbar-dark .navbar-toggler {
+    color: transparent;
+    border-color: transparent;
+}
+
+#navbar-img {
+    height: 2.5rem;
+}
+
+
+// #navbar-ul {
+
+//     li {
+//         position: relative;
+//     }
+
+//     .active::before {
+//         position: absolute;
+//         top: 12px;
+//         left: -10px;
+//         content: "";
+//         width: 2px;
+//         height: 2px;
+//         color: green;
+//         box-shadow: 2px 2px, 4px 2px, 2px 4px, 4px 4px, 6px 4px, 8px 4px, 2px 6px, 4px 6px, 6px 6px, 8px 6px, 10px 6px, 2px 8px, 4px 8px, 6px 8px, 8px 8px, 10px 8px, 12px 8px, 2px 10px, 4px 10px, 6px 10px, 8px 10px, 10px 10px, 2px 12px, 4px 12px, 6px 12px, 8px 12px, 2px 14px, 4px 14px;
+//     }
+// }
+
+/* Navbar Styles End */
