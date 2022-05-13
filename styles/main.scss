@@ -1,4 +1,5 @@
 /* SCSS Imports Start */
+@import "variables";
 @import "navbar";
 @import "buttons";
 @import "hero";
@@ -17,7 +18,7 @@ p {
 }
 
 i {
-    color: #07bb24;
+    color: $primary-green;
     font-size: 1.5rem;
 }
 /* Global Styles End */
@@ -25,7 +26,7 @@ i {
 /* Custom Classes Start */
 .section {
     padding: 5rem 0;
-    border-bottom: 2px dashed #07bb24;
+    border-bottom: 2px dashed $primary-green;
 
     &.section-lighter {
         background-color: rgba(20, 20, 20, 0.9);
@@ -34,12 +35,12 @@ i {
 
 .eight-bit {
     font-family: 'Press Start 2P', cursive;
-    color: #07bb24;
+    color: $primary-green;
     transition: color 0.5s;
 }
 
 .callout-text {
-    color: #07bb24;
+    color: $primary-green;
     font-weight: bold;
     font-style: italic;
     font-size: 1.2rem;

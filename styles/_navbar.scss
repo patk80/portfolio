@@ -42,7 +42,7 @@
     }
 
     .hamburger-icon span {
-        background-color:#07bb24;
+        background-color: $primary-green;
         position: absolute;
         border-radius: 0.125rem;
         transition: 0.3s cubic-bezier(.8, .5, .2, 1.4);
