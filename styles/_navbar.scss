@@ -11,6 +11,11 @@
 
 }
 
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
 .navbar-dark .navbar-toggler {
     color: transparent;
     border-color: transparent;
@@ -20,6 +25,11 @@
 
 #navbar-img {
     height: 2.5rem;
+}
+
+.navbar-name:hover {
+    color: #ffffff;
+    transition: color 0.5s;
 }
 
 .navbar-dark .navbar-toggler-icon {

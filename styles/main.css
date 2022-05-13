@@ -4,6 +4,15 @@
   background-color: rgba(1, 32, 21, 0.95);
 }
 
+.navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .navbar-dark .navbar-toggler {
   color: transparent;
   border-color: transparent;
@@ -13,6 +22,12 @@
 
 #navbar-img {
   height: 2.5rem;
+}
+
+.navbar-name:hover {
+  color: #ffffff;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -254,7 +269,7 @@ i {
 /* Custom Classes Start */
 .section {
   padding: 5rem 0;
-  border-bottom: 3px dashed #07bb24;
+  border-bottom: 2px dashed #07bb24;
 }
 
 .section.section-lighter {
@@ -264,6 +279,8 @@ i {
 .eight-bit {
   font-family: 'Press Start 2P', cursive;
   color: #07bb24;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
 }
 
 .callout-text {
