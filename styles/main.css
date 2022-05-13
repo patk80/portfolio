@@ -218,6 +218,7 @@ h1 #pat-kelly-h1-text {
 #contact-section button {
   background-color: transparent;
   border: none;
+  padding: 0;
 }
 
 #contact-email {
