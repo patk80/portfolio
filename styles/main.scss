@@ -6,14 +6,23 @@
 @import "contact";
 /* SCSS Imports End */
 
-
-
 /* Global Styles Start */
 body {
     background-color: #000000;
     font-family: 'Encode Sans', sans-serif;
 }
 
+p {
+    font-size: 1.1rem;
+}
+
+i {
+    color: #07bb24;
+    font-size: 1.5rem;
+}
+/* Global Styles End */
+
+/* Custom Classes Start */
 .section {
     padding: 5rem 0;
 
@@ -22,7 +31,7 @@ body {
     }
 }
 
-.press-start-2p-font {
+.eight-bit {
     font-family: 'Press Start 2P', cursive;
     color: #07bb24;
 }
@@ -33,14 +42,13 @@ body {
     font-style: italic;
     font-size: 1.2rem;
 }
+/* Custom Classes End */
 
-p {
-    font-size: 1.1rem;
-}
-
-i {
-    color: #07bb24;
-    font-size: 1.5rem;
+/* Animations Start */
+@keyframes blink {
+    0% { opacity:0; }
+   50% { opacity:1; }
+  100% { opacity:0; }
 }
 
 .blinking-animation {
@@ -53,9 +61,18 @@ i {
     opacity: 0;
 }
 
-@keyframes blink {
+@keyframes hero-letter-animation {
     0% { opacity:0; }
-   50% { opacity:1; }
-  100% { opacity:0; }
+   99% { opacity:0; }
+  100% { opacity:1; }
 }
-/* Global Styles End */
+
+.p-1 { animation: hero-letter-animation linear 0.5s; }
+.a-2 { animation: hero-letter-animation linear 1s; }
+.t-3 { animation: hero-letter-animation linear 1.5s; }
+.k-4 { animation: hero-letter-animation linear 2s; }
+.e-5 { animation: hero-letter-animation linear 2.5s; }
+.l-6 { animation: hero-letter-animation linear 3s; }
+.l-7 { animation: hero-letter-animation linear 3.5s; }
+.y-8 { animation: hero-letter-animation linear 4s; }
+/* Animations End */
