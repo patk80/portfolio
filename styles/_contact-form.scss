@@ -1,0 +1,23 @@
+.contact-form {
+    font-family: 'Press Start 2P', cursive;
+
+    input,
+    textarea {
+        width: 100%;
+        max-width: 50rem;
+        background-color: #212529;
+        color: #07bb24;
+        padding: 0.5rem 1rem;
+        border: 0.25rem solid gray;
+    }
+
+    textarea {
+        height: 10rem;
+    }
+
+    button {
+        width: 100%;
+        max-width: 50rem;
+    }
+
+}
