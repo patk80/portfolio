@@ -270,7 +270,7 @@ h1 #pat-kelly-h1-text {
 
 @media (min-width: 992px) {
   .project-card {
-    padding: 1rem;
+    padding: 0.5rem;
   }
 }
 
