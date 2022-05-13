@@ -174,32 +174,32 @@
   }
 }
 
-#hero-8-bit-image {
-  width: 50%;
+.hero-left-image {
+  max-width: 50%;
 }
 
 @media (min-width: 768px) {
-  #hero-8-bit-image {
-    width: 30%;
+  .hero-left-image {
+    max-width: 30%;
   }
 }
 
-h1 {
+.hero-h1 {
   font-size: 1rem;
 }
 
 @media (min-width: 992px) {
-  h1 {
+  .hero-h1 {
     font-size: 1.5rem;
   }
 }
 
-h1 #pat-kelly-h1-text {
+.hero-h1 #pat-kelly-h1-text {
   font-size: 1.5rem;
 }
 
 @media (min-width: 992px) {
-  h1 #pat-kelly-h1-text {
+  .hero-h1 #pat-kelly-h1-text {
     font-size: 2rem;
   }
 }

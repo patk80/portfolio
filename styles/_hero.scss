@@ -1,11 +1,11 @@
-#hero-8-bit-image {
-    width: 50%;
+.hero-left-image {
+    max-width: 50%;
         @media (min-width: 768px) {
-            width: 30%;
+            max-width: 30%;
         }
 }
 
-h1 {
+.hero-h1 {
     font-size: 1rem;
         @media (min-width: 992px) {
             font-size: 1.5rem;
