@@ -254,6 +254,7 @@ i {
 /* Custom Classes Start */
 .section {
   padding: 5rem 0;
+  border-bottom: 3px dashed #07bb24;
 }
 
 .section.section-lighter {
