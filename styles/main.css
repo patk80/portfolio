@@ -1,4 +1,102 @@
 /* SCSS Imports Start */
+/* Navbar Styles Start */
+.navbar {
+  background-color: rgba(1, 32, 21, 0.95);
+}
+
+.navbar-dark .navbar-toggler {
+  color: transparent;
+  border-color: transparent;
+  padding: 0;
+  margin-right: 1.25rem;
+}
+
+#navbar-img {
+  height: 2.5rem;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: none;
+}
+
+/* Hamburger Icon Start */
+.hamburger-icon {
+  width: 2.188rem;
+  height: 1.875rem;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.hamburger-icon:hover {
+  cursor: pointer;
+}
+
+.hamburger-icon span {
+  background-color: #07bb24;
+  position: absolute;
+  border-radius: 0.125rem;
+  -webkit-transition: 0.3s cubic-bezier(0.8, 0.5, 0.2, 1.4);
+  transition: 0.3s cubic-bezier(0.8, 0.5, 0.2, 1.4);
+  width: 100%;
+  height: 0.25rem;
+}
+
+.hamburger-icon span:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+
+.hamburger-icon span:nth-child(2) {
+  top: 0.813rem;
+  left: 0;
+}
+
+.hamburger-icon span:nth-child(3) {
+  bottom: 0;
+  left: 0;
+}
+
+.hamburger-icon:not(.open):hover span:nth-child(1) {
+  -webkit-transform: scaleY(1.2);
+          transform: scaleY(1.2);
+  left: -0.1rem;
+}
+
+.hamburger-icon:not(.open):hover span:nth-child(2) {
+  -webkit-transform: rotate(2deg) scaleY(1.1);
+          transform: rotate(2deg) scaleY(1.1);
+}
+
+.hamburger-icon:not(.open):hover span:nth-child(3) {
+  -webkit-transform: scaleY(1.2);
+          transform: scaleY(1.2);
+  left: 0.1rem;
+}
+
+.hamburger-icon.open span:nth-child(1) {
+  -webkit-transform: rotate(45deg) scaleX(0.7);
+          transform: rotate(45deg) scaleX(0.7);
+  top: 0.813rem;
+  left: -0.5rem;
+}
+
+.hamburger-icon.open span:nth-child(2) {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition-duration: 50ms;
+          transition-duration: 50ms;
+}
+
+.hamburger-icon.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg) scaleX(0.7);
+          transform: rotate(-45deg) scaleX(0.7);
+  top: 0.813rem;
+  left: 0.438rem;
+}
+
+/* Hamburger Icon Start */
+/* Navbar Styles End */
 #hero-section {
   height: 100vh;
 }
@@ -333,102 +431,4 @@ i {
 }
 
 /* Global Styles End */
-/* Navbar Styles Start */
-.navbar {
-  background-color: rgba(1, 32, 21, 0.95);
-}
-
-.navbar-dark .navbar-toggler {
-  color: transparent;
-  border-color: transparent;
-  padding: 0;
-  margin-right: 1.25rem;
-}
-
-#navbar-img {
-  height: 2.5rem;
-}
-
-.navbar-dark .navbar-toggler-icon {
-  background-image: none;
-}
-
-/* Hamburger Icon Start */
-.hamburger-icon {
-  width: 2.188rem;
-  height: 1.875rem;
-  position: relative;
-  cursor: pointer;
-  display: inline-block;
-}
-
-.hamburger-icon:hover {
-  cursor: pointer;
-}
-
-.hamburger-icon span {
-  background-color: #07bb24;
-  position: absolute;
-  border-radius: 0.125rem;
-  -webkit-transition: 0.3s cubic-bezier(0.8, 0.5, 0.2, 1.4);
-  transition: 0.3s cubic-bezier(0.8, 0.5, 0.2, 1.4);
-  width: 100%;
-  height: 0.25rem;
-}
-
-.hamburger-icon span:nth-child(1) {
-  top: 0;
-  left: 0;
-}
-
-.hamburger-icon span:nth-child(2) {
-  top: 0.813rem;
-  left: 0;
-}
-
-.hamburger-icon span:nth-child(3) {
-  bottom: 0;
-  left: 0;
-}
-
-.hamburger-icon:not(.open):hover span:nth-child(1) {
-  -webkit-transform: scaleY(1.2);
-          transform: scaleY(1.2);
-  left: -0.1rem;
-}
-
-.hamburger-icon:not(.open):hover span:nth-child(2) {
-  -webkit-transform: rotate(2deg) scaleY(1.1);
-          transform: rotate(2deg) scaleY(1.1);
-}
-
-.hamburger-icon:not(.open):hover span:nth-child(3) {
-  -webkit-transform: scaleY(1.2);
-          transform: scaleY(1.2);
-  left: 0.1rem;
-}
-
-.hamburger-icon.open span:nth-child(1) {
-  -webkit-transform: rotate(45deg) scaleX(0.7);
-          transform: rotate(45deg) scaleX(0.7);
-  top: 0.813rem;
-  left: -0.5rem;
-}
-
-.hamburger-icon.open span:nth-child(2) {
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition-duration: 50ms;
-          transition-duration: 50ms;
-}
-
-.hamburger-icon.open span:nth-child(3) {
-  -webkit-transform: rotate(-45deg) scaleX(0.7);
-          transform: rotate(-45deg) scaleX(0.7);
-  top: 0.813rem;
-  left: 0.438rem;
-}
-
-/* Hamburger Icon Start */
-/* Navbar Styles End */
 /*# sourceMappingURL=main.css.map */
